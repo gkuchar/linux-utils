@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void hfgrep(char* string, FILE *fp) {
+void hfgrep(char *string, FILE *fp) {
     if (fp == NULL) {
         printf("hfgrep: cannot open file\n");
         exit(1);

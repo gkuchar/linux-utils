@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void hfzip(FILE *fp ) {
+void hfzip(FILE *fp) {
 
     int counter;
     int c = getc(fp);

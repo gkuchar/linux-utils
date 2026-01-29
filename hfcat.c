@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void hfcat(char* fileName) {
+void hfcat(char *fileName) {
     FILE *fp = fopen(fileName, "r");
     if (fp == NULL) {
         printf("hfcat: cannot open file\n");
